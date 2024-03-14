@@ -3,7 +3,7 @@ from soma_calc import soma,divisao
 def test_soma(soma):
     
     sum = soma(2,4)
-    assert sum==soma
+    assert sum == 6
     
 def test_divisao(divisao):
     result = divisao(4,4)
